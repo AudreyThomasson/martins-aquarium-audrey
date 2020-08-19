@@ -1,14 +1,24 @@
 console.log("You are terrific");
 
 // pulling data from other .js page that had the function
-import { useFish } from './FishDataProvider.js';
+import { useFish } from './fishSFolder/FishDataProvider.js';
 // Import the FishList here
-import { FishList} from './FishList.js';
+import { FishList} from './fishSFolder/FishList.js';
+
+// pulling data from other .js page that had the function
+import { useTip } from './tipsSFolder/TipDataProvider.js';
+// Import the TipList here
+import { TipList} from './tipsSFolder/TipList.js';
+
 
 
 
 const allTheFish = useFish();
 console.log("all the fish", allTheFish);
 
-
 FishList();
+
+
+const allTheTips = useTip();
+console.log(allTheTips);
+TipList();

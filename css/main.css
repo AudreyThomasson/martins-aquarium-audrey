@@ -61,3 +61,7 @@ aside {
     flex: 1;
 
 }
+
+.tipLines {
+    font-color: black;
+}

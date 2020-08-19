@@ -8,7 +8,7 @@ export const Fish = (fishObj) => {
          <img class="fish-image" src="images/${fishObj.image}" alt="${fishObj.species}">
          </div>
         <ul>
-             <li>givenName: ${fishObj.givenName}</li>
+             <li>Name: ${fishObj.givenName}</li>
             <li>Species: ${fishObj.species}</li>
             <li>Length: ${fishObj.size}</li>
             <li>Diet: ${fishObj.diet}</li>

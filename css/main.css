@@ -11,12 +11,12 @@ body {
 }
 
 .logoImage {
-    flex-grow: 1;
-    /* justify-content: center; */
+    /* flex-grow: 1; */
+    justify-content: center;
 }
 
 .title {
-    flex-grow: 4;
+    /* flex-grow: 4; */
 }
 
 .blue-line {
@@ -57,7 +57,7 @@ body {
 
 aside {
     /* background-color: white); */
-    border:1px solid black;
+    border:1px solid #276875;
     flex: 1;
 
 }

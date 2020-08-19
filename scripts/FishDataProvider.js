@@ -9,7 +9,7 @@ const fishCollection = [
     },
 
     {
-        image: "maleBetta.jpg",
+        image: "angelFish.jpg",
         givenName: "Pinky",
         species: "Male Betta",
         size: "2 inches",
@@ -18,7 +18,7 @@ const fishCollection = [
     },
 
     {
-        image: "maleBetta.jpg",
+        image: "anthiasFish.jpg",
         givenName: "Big Blue",
         species: "Male Betta",
         size: "2 inches",
@@ -27,7 +27,7 @@ const fishCollection = [
     },
 
     {
-        image: "maleBetta.jpg",
+        image: "butterflyFish.jpg",
         givenName: "Bart",
         size: "5 inches",
         diet: "crustaceans",
@@ -36,7 +36,7 @@ const fishCollection = [
     },
         
     {
-        image: "maleBetta.jpg",
+        image: "clownFish.jpg",
         givenName: "Big Mac",
         size: "6 feet",
         diet: "jellyfish",
@@ -45,7 +45,7 @@ const fishCollection = [
     },
 
     {
-        image: "maleBetta.jpg",
+        image: "lionFish.jpg",
         givenName: "Squigle",
         size: "2 feet",
         diet: "smaller fish",
@@ -54,7 +54,7 @@ const fishCollection = [
     },
 
     {
-        image: "maleBetta.jpg",
+        image: "queenslandGroperFish.jpg",
         givenName: "Hammy",
         size: "4 feet",
         diet: "just about everything",
@@ -63,7 +63,7 @@ const fishCollection = [
     },
 
     {
-        image: "maleBetta.jpg",
+        image: "surgeonFish.jpg",
         givenName: "Tiny",
         size: "1 inch",
         diet: "plankton",

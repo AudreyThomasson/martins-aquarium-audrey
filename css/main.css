@@ -1,7 +1,26 @@
 body {
-    background-color: aqua;
-    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Roboto', sans-serif;
+}
 
+.logoBox {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.logoImage {
+    flex-grow: 1;
+    /* justify-content: center; */
+}
+
+.title {
+    flex-grow: 4;
+}
+
+.blue-line {
+    border-top: 1px solid #276875;
 }
 
 .fishTank {
@@ -9,7 +28,7 @@ body {
     flex-wrap: nowrap;
     margin: 1em;
     flex: 3;
-    border:5px solid red;
+    /* border:1px solid black; */
 }
 
 .fishlist {
@@ -19,7 +38,8 @@ body {
 }
 
 .fishlist-card {
-    background-color: chartreuse;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px #888888;
     margin: 1em;
     flex-basis: 25%;
     padding: 0 1em;
@@ -36,7 +56,8 @@ body {
 }
 
 aside {
-    background-color: gray;
+    /* background-color: white); */
+    border:1px solid black:
     flex: 1;
 
 }

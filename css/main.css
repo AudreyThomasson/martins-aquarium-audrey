@@ -1,22 +1,29 @@
 body {
     background-color: white;
-    font-family: 'Audiowide', cursive;
     font-family: 'Roboto', sans-serif;
 }
 
-.logoBox {
-    display: flex;
-    flex-wrap: nowrap;
+/* .logoBox {
+    /* display: flex; */
 
-}
+
+/* } */ 
 
 .logoImage {
-    flex-grow: 1;
-    /* justify-content: center; */
+    /* align-self: center; */
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 150px;
 }
 
-.title {
-    flex-grow: 4;
+.logoTitle {
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    color: #276875;
+    font-size: 180%;
 }
 
 .blue-line {
@@ -31,7 +38,7 @@ body {
     /* border:1px solid black; */
 }
 
-.fishlist {
+.fishList {
     flex: 3;
     display: flex;
     flex-wrap: wrap;
@@ -46,9 +53,9 @@ body {
 
 }
 
-.card-image {
+/* .card-image {
 
-}
+} */
 
 .fish-image {
     width: 100%;
@@ -57,7 +64,20 @@ body {
 
 aside {
     /* background-color: white); */
-    border:1px solid black:
+    border:1px solid #276875;
     flex: 1;
 
+}
+.tipsTitle {
+    text-align: center;
+    color: #276875;
+
+}
+
+.tipLines {
+    /* font-color: black; */
+}
+
+h2 {
+    color: #276875;
 }

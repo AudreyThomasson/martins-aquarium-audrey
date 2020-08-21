@@ -79,7 +79,7 @@ const fishCollection = [
 // First randomized collection of fish
 
 export const useFish = () => {
-    return fishCollection.slice()
+    return fishCollection.slice();
 }
 
 
@@ -88,7 +88,7 @@ export const useFish = () => {
 
 export const makeMostHolyFish = () => {
     // 3, 6, 9, 12, etc... fish
-    const mostHolyFishArray = []
+    const mostHolyFishArray = [];
 
     for (const theFish of fishCollection) {
 // the const theFish is only for this loop. It is a new name. aka the hand
@@ -96,14 +96,14 @@ export const makeMostHolyFish = () => {
             mostHolyFishArray.push(theFish);
         }
     }
-    return mostHolyFishArray
+    return mostHolyFishArray;
 }
 
 // --------------------------------
 
 export const makeSoldierFish = () => {
     // 5, 10, 20, 25, etc... fish
-    const soldierFishArray = []
+    const soldierFishArray = [];
 
     for (const fishObj of fishCollection) {
         // divisible by 5 but don't include the 3

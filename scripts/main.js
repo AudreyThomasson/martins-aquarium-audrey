@@ -13,8 +13,8 @@ import { TipList} from './tipsSFolder/TipList.js';
 
 
 
-const allTheFish = useFish();
-console.log("all the fish", allTheFish);
+// const allTheFish = useFish();
+// console.log("all the fish", allTheFish);
 
 FishList();
 // makeMostHolyFish();            We don't really need these ACK
